@@ -54,9 +54,9 @@
                     <tr>
                         <td><label>Category:</label></td>
                         <td><select name="category" required>
-                                <option value="work">Work</option>
-                                <option value="university">University</option>
-                                <option value="family">Family</option>
+                                <option value="Work">Work</option>
+                                <option value="University">University</option>
+                                <option value="Family">Family</option>
                             </select>
                         </td>
                     </tr>
