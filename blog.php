@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="Sources/blogstyle.css">
     <link rel="stylesheet" href="Sources/unsemantic-grid-responsive-tablet.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
