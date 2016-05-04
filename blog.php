@@ -37,9 +37,14 @@
         <?php
         include("dbconnect.php");
 
-        $sql = "SELECT * FROM blogView";
+        if(isset($_GET['category'])){
+            $category = $_GET['id'];
+            $sql = "SELECT * FROM blogView WHERE category = '$category'";
+        }
 
-        $result = mysqli_query($db, $sql);
+        else{
+            $sql = "SELECT * FROM blogView";
+        }
 
         if (mysqli_num_rows($result) > 0){
             while ($row = mysqli_fetch_assoc($result)){
