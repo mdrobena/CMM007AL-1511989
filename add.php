@@ -94,6 +94,7 @@
                 echo "Error ".$sql_query."<br>".mysqli_error($db);
             }
 
+            header("location:blog.php");
 
         }
 
