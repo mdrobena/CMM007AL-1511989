@@ -38,7 +38,7 @@
         include("dbconnect.php");
 
         if(isset($_GET['category'])){
-            $category = $_GET['id'];
+            $category = $_GET['category'];
             $sql = "SELECT * FROM blogView WHERE category = '$category'";
         }
 
