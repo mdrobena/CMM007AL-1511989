@@ -6,10 +6,6 @@ body{
     margin-right: auto;
 }
 
-section{
-    height: 450px;
-}
-
 nav>ul{
     list-style-type: none;
     margin: 0;
